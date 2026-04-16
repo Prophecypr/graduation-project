@@ -1,0 +1,44 @@
+{
+    "idf.portWin": "COM7",
+    "idf.flashType": "UART",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-builtin.cfg"
+    ],
+    "files.associations": {
+        "task.h": "c",
+        "dht11.h": "c",
+        "ets_sys.h": "c",
+        "esp_gpio.h": "c",
+        "led_ws2812.h": "c",
+        "gpio.h": "c",
+        "rmt_tx.h": "c",
+        "nvs_flash.h": "c",
+        "queue.h": "c",
+        "rmt_rx.h": "c",
+        "espnow.h": "c",
+        "esp_wifi.h": "c",
+        "gatt_server.h": "c",
+        "*.tcc": "c",
+        "esp_bt.h": "c",
+        "esp_bt_main.h": "c",
+        "esp_gap_ble_api.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c",
+        "esp_gatt_common_api.h": "c",
+        "serial.h": "c",
+        "cstdint": "c",
+        "bitset": "c",
+        "set": "c",
+        "format": "c",
+        "nvs.h": "c",
+        "esp_log.h": "c",
+        "m100p.h": "c",
+        "aes.h": "c",
+        "freertosconfig.h": "c",
+        "uart.h": "c"
+    },
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32c3"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
